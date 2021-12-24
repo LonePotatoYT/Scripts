@@ -614,7 +614,7 @@ function SolarisLib:New(Config)
         
         local general = Settings:Tab("General")
         general:ToggleSetting("Show Music On Launch", "Shows the music menu when you load Snow Hub", SolarisLib.Settings.ShowMusicOnLaunch, "ShowMusicOnLaunch")
-        general:BindSetting("Close Bind", "Hides/Shows the main window when pressed.", Enum.KeyCode.RightControl, "CloseBind")
+        general:BindSetting("Close Bind", "Hides/Shows the main window when pressed.", Enum.KeyCode.LeftControl, "CloseBind")
         
         local appearance = Settings:Tab("Appearance")
         appearance:Dropdown("Theme", "The look of the user interface", {"Default", "Discord", "Red", "Green", "Blue"}, "Default", "Theme")
