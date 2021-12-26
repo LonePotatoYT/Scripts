@@ -1,4 +1,5 @@
 -- This User Interface Library is brought to you by Solaris Software.
+--help api https://v3rmillion.net/showthread.php?tid=1142474
 local Solaris = Instance.new("ScreenGui")
 Solaris.Name = tostring(math.random())
 Solaris.Parent = game.CoreGui
